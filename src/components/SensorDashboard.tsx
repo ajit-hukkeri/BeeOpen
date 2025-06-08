@@ -4,19 +4,19 @@ const SensorDashboard = () => {
   const charts = [
     {
       title: 'Temperature Inside',
-      src: 'https://thingspeak.com/channels/2886027/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line',
-    },
-    {
-      title: 'Temperature Outside',
-      src: 'https://thingspeak.com/channels/2886027/charts/2?bgcolor=%23ffffff&color=%230080ff&dynamic=true&results=60&type=line',
-    },
-    {
-      title: 'Humidity Inside',
       src: 'https://thingspeak.com/channels/2886027/charts/3?bgcolor=%23ffffff&color=%23ffa500&dynamic=true&results=60&type=line',
     },
     {
-      title: 'Humidity Outside',
+      title: 'Temperature Outside',
+      src: 'https://thingspeak.com/channels/2886027/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line',
+    },
+    {
+      title: 'Humidity Inside',
       src: 'https://thingspeak.com/channels/2886027/charts/4?bgcolor=%23ffffff&color=%2300cc44&dynamic=true&results=60&type=line',
+    },
+    {
+      title: 'Humidity Outside',
+      src: 'https://thingspeak.com/channels/2886027/charts/2?bgcolor=%23ffffff&color=%230080ff&dynamic=true&results=60&type=line',
     },
   ];
 
