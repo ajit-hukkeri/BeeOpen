@@ -4,9 +4,10 @@ import { Thermometer, Droplets, Wifi } from 'lucide-react';
 const HeroSection = () => {
   return (
     <section className="relative min-h-screen bg-gradient-to-br from-amber-50 via-orange-50 to-yellow-50 flex items-center">
+      <img src="/logo_left.png" alt="Left Logo" className="absolute left-0 top-1/2 -translate-y-1/2 h-32 w-auto z-10" />
       <div className="absolute inset-0 bg-gradient-to-r from-amber-100/20 to-orange-100/20"></div>
       <div className="container mx-auto px-6 relative z-10">
-        <div className="max-w-4xl mx-auto text-center">
+        <div className="max-w-4xl mx-auto text-center relative">
           <div className="flex justify-center mb-8">
             <div className="relative">
               <div className="w-24 h-24 bg-gradient-to-br from-amber-400 to-orange-500 rounded-full flex items-center justify-center mb-4 shadow-lg">
@@ -41,6 +42,7 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
+      <img src="/logo_right.png" alt="Right Logo" className="absolute right-0 top-1/2 -translate-y-1/2 h-32 w-auto z-10" />
     </section>
   );
 };
